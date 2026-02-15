@@ -90,7 +90,7 @@ def evaluate_model(model, X_test, y_test) -> dict:
 
 def main():
     # ====== CHANGE THIS PATH IF NEEDED ======
-    csv_path = "bank/bank.csv"
+    csv_path = "bank.csv"
     # =======================================
 
     df = pd.read_csv(csv_path, sep=';')
@@ -212,4 +212,5 @@ class FunctionTransformerDense:
 
 
 if __name__ == "__main__":
+
     main()
