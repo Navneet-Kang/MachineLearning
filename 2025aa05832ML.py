@@ -93,7 +93,7 @@ def main():
     csv_path = "bank.csv"
     # =======================================
 
-    df = pd.read_csv(uploaded_file, sep=None, engine='python')
+    df = pd.read_csv(csv_path, sep=None, engine='python')
 
     if "y" not in df.columns:
         raise ValueError("Target column 'y' not found. Please rename your target column to 'y'.")
@@ -214,4 +214,5 @@ class FunctionTransformerDense:
 if __name__ == "__main__":
 
     main()
+
 
