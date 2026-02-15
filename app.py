@@ -36,7 +36,7 @@ def read_csv_safely(file_obj_or_path):
 
 
 
-DEFAULT_DATA_PATH = os.path.join(".", "bank.csv")
+DEFAULT_DATA_PATH = os.path.join("data", "bank.csv")
 METRICS_PATH = os.path.join("model", "model_metrics.csv")
 
 MODEL_FILE_MAP = {
